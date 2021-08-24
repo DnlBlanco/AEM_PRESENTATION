@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-02T12:56:44.533-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sample/settings/wcm/templates/page-content"
+        jcr:description="If you are in the market for a new home, look no further than Wolliz"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Texas Realtors"
+        sling:resourceType="sample/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/container">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/title"/>
+                <container
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/container"
+                    layout="responsiveGrid"/>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

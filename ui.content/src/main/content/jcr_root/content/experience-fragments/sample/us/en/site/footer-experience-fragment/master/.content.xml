@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-05T09:06:52.135-05:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/sample/settings/wcm/templates/presentation-experience-fragment"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="footer-experience-fragment"
+        sling:resourceType="sample/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2021-08-03T09:20:53.379-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container"
+            layout="responsiveGrid">
+            <separator
+                jcr:created="{Date}2021-08-03T09:25:14.388-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-03T09:25:30.891-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/separator"/>
+            <image_copy
+                jcr:created="{Date}2021-08-03T10:05:52.641-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-03T10:06:44.273-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/image"
+                fileReference="/content/dam/sample/House Footer Logo1.png"
+                height="0"
+                width="0">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="1"/>
+                </cq:responsive>
+            </image_copy>
+            <simpletitle
+                jcr:created="{Date}2021-08-03T10:08:44.993-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-03T10:16:06.817-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Copyright © 2021 Daniel Blanco, All Rights Reserved."
+                sling:resourceType="sample/components/simpletitle"
+                type="h2">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="6"/>
+                </cq:responsive>
+            </simpletitle>
+            <image
+                jcr:created="{Date}2021-08-03T10:05:52.641-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-05T09:06:52.020-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/image"
+                fileReference="/content/dam/sample/House Footer Logo1.png"
+                height="0"
+                isDecorative="true"
+                width="0">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="1"
+                        width="1"/>
+                </cq:responsive>
+            </image>
+        </root>
+    </jcr:content>
+</jcr:root>

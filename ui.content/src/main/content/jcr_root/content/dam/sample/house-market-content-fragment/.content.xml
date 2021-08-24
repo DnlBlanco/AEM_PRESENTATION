@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="c6973e4b-5810-4051-982b-cc1a12316847">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-02T15:18:56.980-05:00"
+        cq:lastModifiedBy="admin"
+        cq:name="house-market-content-fragment"
+        cq:parentPath="/content/dam/sample"
+        jcr:description="Brief talk about the state of the current housing market"
+        jcr:lastModified="{Date}2021-08-03T08:55:15.510-05:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Home Prices Are Soaring"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-03T08:55:15.511-05:00">
+        <data
+            cq:model="/conf/wknd/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                author="Jeanna Smialek"
+                author_x0040_LastModified="{Date}2021-08-03T08:54:59.061-05:00"
+                main="&lt;p>&lt;b>Home Prices Are Soaring. Is That the Fed’s Problem?&lt;/b>&lt;br>&#xa;&lt;/p>&#xa;&lt;p>Low interest rates are one reason that the housing market has taken off. They are far from the only one.&lt;/p>&#xa;&lt;p>Robert S. Kaplan, the president of the Federal Reserve Bank of Dallas, has been nervously eyeing the housing market as he ponders the path ahead for monetary policy. Home prices are rising at a double-digit pace this year. The typical house in and around the city he calls home sold for $306,031 in June of this year, Zillow estimates, up from $261,710 a year earlier.&lt;/p>&#xa;&lt;p>Several of Mr. Kaplan’s colleagues harbor similar concerns. They are worried that the housing boom could end up looking like a bubble, one that threatens financial stability. And some fret that the central bank’s big bond purchases could be helping to inflate it.&lt;/p>&#xa;&lt;p>Industry experts say the current home price boom emerged from a cocktail of low interest rates, booming demand and supply bottlenecks. In short, it’s a situation that many are feeling acutely with no single policy to blame and no easy fix.&lt;/p>&#xa;&lt;p style=&quot;text-align: right;&quot;>&lt;i>Jeanna Smialek , &amp;quot;The New York Times&amp;quot;&lt;/i>&lt;/p>&#xa;"
+                main_x0040_ContentType="text/html"
+                main_x0040_LastModified="{Date}2021-08-03T08:54:59.062-05:00"/>
+            <mobile
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                author="Jeanna Smialek"
+                author_x0040_LastModified="{Date}2021-08-03T08:55:15.467-05:00"
+                main="&lt;p>&lt;b>Home Prices Are Soaring. Is That the Fed’s Problem?&lt;/b>&lt;/p>&#xa;&lt;p>Low interest rates are one reason that the housing market has taken off. They are far from the only one.&lt;/p>&#xa;&lt;p>Industry experts say the current home price boom emerged from a cocktail of low interest rates, booming demand and supply bottlenecks. In short, it’s a situation that many are feeling acutely with no single policy to blame and no easy fix.&lt;/p>&#xa;&lt;p style=&quot;text-align: right;&quot;>&lt;i>Jeanna Smialek , &amp;quot;The New York Times&amp;quot;&lt;/i>&lt;/p>&#xa;"
+                main_x0040_ContentType="text/html"
+                main_x0040_LastModified="{Date}2021-08-03T08:55:15.468-05:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <mobile
+                    jcr:description="Shorter Version of Home Prices Are Soaring Content Fragment"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Mobile"
+                    name="mobile">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[author:39bb1c91-9f60-4b5a-a6dc-c78a7e44e15c,main:39bb1c91-9f60-4b5a-a6dc-c78a7e44e15c]"/>
+                </mobile>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+        <usages
+            dam:score="{Long}3"
+            jcr:primaryType="nt:unstructured"
+            usedBy="[aem]">
+            <aem
+                jcr:primaryType="nt:unstructured"
+                count="{Long}3"
+                lastUsed="{Date}2021-08-02T16:26:34.451-05:00"/>
+        </usages>
+    </jcr:content>
+</jcr:root>

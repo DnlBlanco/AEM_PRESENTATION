@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2021-08-24T11:52:21.245-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sample/settings/wcm/templates/presentation-template"
+        jcr:description="AEM Presentation Web Page"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Golf World"
+        jcr:uuid="68c84e44-1b7f-407d-802a-6787e5c1ed7b"
+        sling:resourceType="sample/components/page"
+        approver1="Daniel"
+        approver2="Golf World"
+        socialMedia="[facebook,pinterest]">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/container"
+                layout="responsiveGrid"/>
+            <responsivegrid_26921014
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <subscriptioncomponen
+                    jcr:created="{Date}2021-08-23T21:33:07.972-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-23T21:33:07.972-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="golfworld/components/subscriptioncomponent"/>
+                <calendar_golf
+                    jcr:created="{Date}2021-08-24T10:17:12.372-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-24T10:17:43.685-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/calendar-golf"
+                    textIsRich="true">
+                    <event jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            date="{Date}2021-08-25T00:00:00.000-05:00"
+                            name="Event Made"/>
+                    </event>
+                </calendar_golf>
+            </responsivegrid_26921014>
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <breadcrumb
+                    jcr:created="{Date}2021-07-30T09:24:42.663-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-07-30T09:25:00.351-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/breadcrumb"
+                    disableShadowing="false"
+                    hideCurrent="false"
+                    showHidden="false"
+                    startLevel="3"/>
+                <temporalimage_2142498368
+                    jcr:created="{Date}2021-08-02T10:22:59.809-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-02T10:23:05.077-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/temporalImage"
+                    altValueFromDAM="true"
+                    displayPopupTitle="true"
+                    fileReference="/content/dam/sample/Presentation Page Logo.png"
+                    isDecorative="false"
+                    titleValueFromDAM="true"/>
+                <bladecomponent
+                    jcr:created="{Date}2021-08-24T07:42:34.165-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-24T11:52:21.242-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/bladecomponent"
+                    fileReference="/content/dam/sample/golf-image-3.jpeg"
+                    fileReference2="/content/dam/sample/golf-image-2.jpeg"
+                    fileReference3="/content/dam/sample/golf-image-1.jpeg"
+                    title="Welcome To Golf World"/>
+            </responsivegrid>
+            <responsivegrid_981197901
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragmentsampl
+                    jcr:created="{Date}2021-08-02T16:45:54.042-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-06T14:23:52.061-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/contentfragmentsample"
+                    displayMode="singleText"
+                    elementNames="main"
+                    fragmentPath="/content/dam/sample/house-market-content-fragment"
+                    paragraphScope="all"
+                    text="Home Prices Are Soaring. Is That the Fed’s Problem? Low interest rates are one reason that the housing market has taken off. They are far from the only one. Robert S. Kaplan, the president of the Federal Reserve Bank of Dallas, has been nervously eyeing the housing market as he ponders the path ahead for monetary policy. Home prices are rising at a double-digit pace this year. The typical house in and around the city he calls home sold for $306,031 in June of this year, Zillow estimates, up from $261,710 a year earlier. Several of Mr. Kaplan’s colleagues harbor similar concerns. They are worried that the housing boom could end up looking like a bubble, one that threatens financial stability. And some fret that the central bank’s big bond purchases could be helping to inflate it. Industry experts say the current home price boom emerged from a cocktail of low interest rates, booming demand and supply bottlenecks. In short, it’s a situation that many are feeling acutely with no single policy to blame and no easy fix. Jeanna Smialek , &quot;The New York Times&quot;"
+                    variationName="master"/>
+            </responsivegrid_981197901>
+            <responsivegrid_2059687782
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            <experiencefragment
+                jcr:lastModified="{Date}2021-08-23T20:16:46.352-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                fragmentPath="/content/experience-fragments/sample/us/en/site/header-experience-fragment/master"
+                text="Home Sample Site Contact About Us"/>
+            <experiencefragment_1726750886
+                jcr:lastModified="{Date}2021-08-03T09:17:36.562-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                fragmentVariationPath="/content/experience-fragments/sample/us/en/site/footer-experience-fragment/master"/>
+        </root>
+    </jcr:content>
+</jcr:root>

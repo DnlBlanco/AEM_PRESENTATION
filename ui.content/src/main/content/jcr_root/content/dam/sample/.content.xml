@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:lastModified="{Date}2021-08-02T15:44:35.312-05:00"
+    jcr:lastModifiedBy="admin"
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
         cq:conf="/conf/sample"
@@ -8,4 +10,19 @@
         <folderThumbnail/>
     </jcr:content>
     <asset.jpg/>
+    <house-market-content-fragment/>
+    <House_x0020_Footer_x0020_Logo1.png/>
+    <_x0034_23_x0020_Royal_x0020_Dr.png/>
+    <_x0031_510_x0020_Jamison_x0020_Dr.png/>
+    <_x0034_900_x0020_El_x0020_Toro_x0020_St.png/>
+    <_x0036_760_x0020_Home_x0020_St.png/>
+    <_x0031_496_x0020_Colina_x0020_Dr.png/>
+    <_x0033_311_x0020_Aurora_x0020_Ln.png/>
+    <_x0033_369_x0020_Castle_x0020_St.png/>
+    <_x0031_1390_x0020_Santa_x0020_Maria_x0020_Rd.png/>
+    <Presentation_x0020_House_x0020_Logo.png/>
+    <golf-image-1.jpeg/>
+    <golf-image-2.jpeg/>
+    <golf-image-3.jpeg/>
+    <golfworld_x0020_logo.png/>
 </jcr:root>

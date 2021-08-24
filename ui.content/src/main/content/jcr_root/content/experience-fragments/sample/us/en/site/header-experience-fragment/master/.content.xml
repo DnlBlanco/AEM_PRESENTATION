@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-23T21:14:09.066-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sample/settings/wcm/templates/presentation-experience-fragment"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="header-experience-fragment"
+        sling:resourceType="sample/components/xfpage">
+        <root
+            jcr:lastModified="{Date}2021-08-02T09:38:45.482-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container"
+            layout="responsiveGrid">
+            <search
+                cq:masterBuildingBlock="{Boolean}true"
+                jcr:created="{Date}2021-08-05T10:20:59.770-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-05T10:46:04.787-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="&lt;a"
+                sling:resourceType="cq/experience-fragments/editor/components/buildingblock">
+                <item12528056208625
+                    jcr:created="{Date}2021-08-05T10:21:56.937-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-23T19:36:40.270-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="foundation/components/image"
+                    fileReference="/content/dam/sample/golfworld logo.png"
+                    width="100">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="6"
+                            width="1"/>
+                    </cq:responsive>
+                </item12528056208625>
+                <navbar
+                    jcr:created="{Date}2021-08-23T19:31:02.489-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-23T19:31:02.489-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/navbar">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </navbar>
+            </search>
+        </root>
+        <cq:metadata
+            jcr:primaryType="nt:unstructured"
+            min-cols="3"/>
+    </jcr:content>
+</jcr:root>
