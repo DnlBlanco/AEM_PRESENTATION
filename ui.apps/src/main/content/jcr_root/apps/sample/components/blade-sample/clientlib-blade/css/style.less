@@ -1,0 +1,32 @@
+.cmp-blade__title{
+    color: purple;
+    text-align: center;
+    //z-index:2;
+}
+.cmp-blade__content::first-line{
+    color:aqua;
+}
+.cmp-blade__content{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    //font-weight: bold;
+}
+.background_container{
+    //border-style: dashed;
+    //border-color: black;
+    position: relative;
+    //border-style:dashed;
+	z-index:1
+}
+.background_container::before{
+    background-image: var(--set-image, none);
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+	top:0px;
+    left:0px;
+    opacity:0.6;
+    z-index: -1;
+    background-size: cover;
+}
