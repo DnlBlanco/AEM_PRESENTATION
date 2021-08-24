@@ -1,0 +1,41 @@
+<!-- House Component for AEM Presentation Page. 
+*The Component displays an image of a house followed by text information <div data-sly-use.model="com.adobe.aem.sample.core.models.HouseComponent">-->
+<div
+  class="house-comp"
+  data-sly-use.model="com.adobe.aem.sample.core.models.HouseComponent"
+>
+  <h1>${model.address}</h1>
+  <div class="img-container">
+    <img
+      src="/content/dam/sample/${model.address}.png"
+      alt="House Image"
+      class="image"
+    />
+    <div class="middle">
+      <div class="text"><button id="buy-house-btn">Buy!</button></div>
+    </div>
+  </div>
+
+  <table class="center">
+    <tr>
+      <td class="first-column">Description</td>
+      <td>${model.description}</td>
+    </tr>
+    <tr>
+      <td class="first-column">City</td>
+      <td>${model.city}</td>
+    </tr>
+    <tr>
+      <td class="first-column">Address</td>
+      <td>${model.address}</td>
+    </tr>
+    <tr>
+      <td class="first-column">Price (USD)</td>
+      <td id="price">$${model.price}</td>
+    </tr>
+  </table>
+  <br />
+  <button id="next-house-btn" value="${model.address}" onclick="callServlet()">
+    Next Home
+  </button>
+</div>

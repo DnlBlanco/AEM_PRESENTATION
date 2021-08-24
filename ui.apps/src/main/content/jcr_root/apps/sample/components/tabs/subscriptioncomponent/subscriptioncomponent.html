@@ -1,0 +1,25 @@
+<form action="forminfo.php" method="POST">
+
+        <fieldset> 
+            <legend>Please tell us a bit about yourself:</legend>
+
+            <div>
+                <label for="firstName" id = "labelFirstName">First Name</label>
+                <input type="text" id="firstName" name="fname" value="Ex: Daniel" required><br><br>
+                <label for="lastName" id = "labelLastName">Last Name</label>
+                <input type="text" id="lastName"   name="lname" value="Ex: Blanco" required><br><br>
+                <label for="city" id = "labelCity">City</label>
+                <input type="text" id="city" name="city" value='Only Cities in "Texas"' required><br><br>
+                <label for="phoneNumber" id = "labelPhoneNumber">Phone Number</label>
+                <input type="text" id="phoneNumber"   name="pNumber" value="Ex: 214-983-8326" required><br><br>
+                <label for="message" id = "labelMessage">Give us an insight into your work:</label><br>
+            </div>
+
+            <div id="text-area">
+                <textarea name="imessage" id="message" cols="70" rows="7"></textarea><br><br>
+            </div>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+
+    </form>

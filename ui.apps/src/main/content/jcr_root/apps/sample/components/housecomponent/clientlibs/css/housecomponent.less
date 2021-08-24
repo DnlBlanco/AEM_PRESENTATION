@@ -1,0 +1,121 @@
+table {
+  margin-top: 1rem;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 55%;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(56, 207, 255);
+}
+
+td,
+th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 3px;
+}
+
+.house-comp {
+  color: white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.image {
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+
+#buy-house-btn {
+  display: inline-block;
+   padding: 0.7em 1.4em;
+   margin: 0 0.3em 0.3em 0;
+   border-radius: 0.15em;
+   box-sizing: border-box;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 400;
+   color: #ffffff;
+   background-color: rgb(56, 207, 255);
+   box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+   text-align: center;
+   position: relative;
+}
+
+#buy-house-btn:active {
+   top: 0.1em;
+}
+
+@media all and (max-width: 30em) {
+  #buy-house-btn {
+      display: block;
+      margin: 0.4em auto;
+  }
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.first-column {
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  background: rgb(242, 0, 9);
+  padding: 0;
+}
+
+#next-house-btn {
+  display: inline-block;
+   padding: 0.7em 1.4em;
+   margin: 0 0.3em 0.3em 0;
+   border-radius: 0.15em;
+   box-sizing: border-box;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 400;
+   color: #ffffff;
+   background-color: rgb(56, 207, 255);
+   box-shadow: inset 0 -0.6em 0 -0.35em rgba(0, 0, 0, 0.17);
+   text-align: center;
+   position: relative;
+}
+
+#next-house-btn:active {
+   top: 0.1em;
+}
+
+@media all and (max-width: 30em) {
+  #next-house-btn {
+      display: block;
+      margin: 0.4em auto;
+  }
+}
