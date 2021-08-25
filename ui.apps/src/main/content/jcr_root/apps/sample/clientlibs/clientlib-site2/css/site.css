@@ -184,3 +184,11 @@ header.experiencefragment .cmp-search__field {
 header.experiencefragment .cmp-search__input {
   height: 26px;
 }
+.cmp-contentfragment__title{
+	visibility: hidden;
+    font-size:0;
+}
+.cmp-contentfragment__element-title{
+    visibility: hidden;
+    font-size:0;
+}
