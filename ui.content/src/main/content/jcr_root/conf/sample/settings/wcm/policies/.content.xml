@@ -198,44 +198,39 @@
                 <policy_footer
                     cq:styleDefaultElement="footer"
                     jcr:description="Sets a &lt;footer> element on the page footer experience fragment."
+                    jcr:lastModified="{Date}2021-08-03T09:16:39.256-05:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Footer"
                     sling:resourceType="wcm/core/components/policy/policy">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy_footer>
+                <policy_8938281686250
+                    cq:styleDefaultElement="header"
+                    jcr:lastModified="{Date}2021-08-24T14:45:10.011-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Header"
+                    sling:resourceType="wcm/core/components/policy/policy">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_8938281686250>
             </experiencefragment>
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-08-24T15:44:16.885-04:00"
+                    jcr:lastModified="{Date}2021-07-30T08:54:42.806-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:Sample Site - Content,/apps/sample/components/form/container,group:Sample Site - Structure]"
+                    backgroundColorEnabled="true"
+                    backgroundImageEnabled="true"
+                    components="[group:General,group:Sample Site - Content,/apps/sample/components/form/container,group:Sample Site - Structure]"
+                    layout="responsiveGrid"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
-                        <assetToComponentMapping jcr:primaryType="nt:unstructured">
-                            <mapping_1575024218483
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="media"
-                                assetMimetype="image/*"
-                                droptarget="image"
-                                resourceType="sample/components/image"/>
-                            <mapping_1575030843388
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="content"
-                                assetMimetype="text/html"
-                                droptarget="experiencefragment"
-                                resourceType="sample/components/experiencefragment"/>
-                            <mapping_1575030853128
-                                jcr:primaryType="nt:unstructured"
-                                assetGroup="media"
-                                assetMimetype="[text/html,application/vnd.adobe.contentfragment]"
-                                droptarget="contentfragment"
-                                resourceType="sample/components/contentfragment"/>
-                        </assetToComponentMapping>
+                        <assetToComponentMapping jcr:primaryType="nt:unstructured"/>
                     </cq:authoring>
                 </policy_1574694950110>
                 <policy_1574695586800
@@ -306,6 +301,16 @@
                         </assetToComponentMapping>
                     </cq:authoring>
                 </policy_1575040440977>
+                <policy_1627665029342
+                    jcr:lastModified="{Date}2021-08-23T19:30:34.269-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Experience Fragment - Presentation"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    components="[group:General,group:Sample Site - Content,/apps/sample/components/navbar,/apps/sample/components/search]"
+                    layoutDisabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1627665029342>
             </container>
             <teaser jcr:primaryType="nt:unstructured">
                 <policy_1575031387650
@@ -334,62 +339,124 @@
             <page jcr:primaryType="nt:unstructured">
                 <policy
                     jcr:description="Includes the required client libraries."
+                    jcr:lastModified="{Date}2021-08-24T15:01:44.891-05:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Generic Page"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[sample.dependencies,sample.site]"
+                    clientlibs="[wcm.foundation.components.page.responsive,sample.dependencies,sample.site]"
                     clientlibsJsHead="sample.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
-                <policy_60092773997400
-                    jcr:lastModified="{Date}2021-08-24T18:58:00.574-04:00"
+                <policy_1627658316324
+                    jcr:lastModified="{Date}2021-08-25T15:20:20.117-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="GolfWorld Style"
+                    jcr:title="Presentation Template Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    clientlibs="[wcm.foundation.components.page.responsive,sample.dependencies,sample.site2]">
+                    clientlibs="[wcm.foundation.components.page.responsive,sample.dependencies,sample.site2]"
+                    clientlibsJsHead="sample.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_60092773997400>
+                </policy_1627658316324>
             </page>
-            <embed jcr:primaryType="nt:unstructured">
-                <policy_1629831754290
-                    jcr:lastModified="{Date}2021-08-24T15:03:20.932-04:00"
+            <xfpage jcr:primaryType="nt:unstructured">
+                <policy_1627669091226
+                    jcr:lastModified="{Date}2021-07-30T13:19:24.508-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    jcr:title="Enable Youtube"
+                    jcr:title="Responsive Grid"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="wcm.foundation.components.page.responsive">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1627669091226>
+            </xfpage>
+            <embed jcr:primaryType="nt:unstructured">
+                <policy_1629849783165
+                    jcr:lastModified="{Date}2021-08-24T19:03:30.463-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Embedable"
                     sling:resourceType="wcm/core/components/policy/policy"
                     allowedEmbeddables="core/wcm/components/embed/v1/embed/embeddable/youtube"
                     embeddablesDisabled="false"
                     htmlDisabled="false"
                     urlDisabled="false"
-                    youtubeAutoPlayDefaultValue="false"
+                    youtubeAutoPlayDefaultValue="true"
                     youtubeAutoPlayEnabled="true"
-                    youtubeLoopDefaultValue="false"
+                    youtubeLoopDefaultValue="true"
                     youtubeLoopEnabled="true"
                     youtubeMuteDefaultValue="true"
                     youtubeMuteEnabled="true"
-                    youtubePlaysInlineDefaultValue="false"
-                    youtubePlaysInlineEnabled="false"
+                    youtubePlaysInlineDefaultValue="true"
+                    youtubePlaysInlineEnabled="true"
                     youtubeRelatedVideosDefaultValue="true"
-                    youtubeRelatedVideosEnabled="false">
+                    youtubeRelatedVideosEnabled="true">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
-                </policy_1629831754290>
+                </policy_1629849783165>
             </embed>
+            <accordion jcr:primaryType="nt:unstructured">
+                <policy_1629923021487
+                    jcr:lastModified="{Date}2021-08-25T15:24:18.478-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="FAQ Acordion Policy"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedHeadingElements="[h2,h3,h4,h5,h6]"
+                    components="[/apps/sample/components/contentfragment,/apps/sample/components/contentfragmentlist]"
+                    headingElement="h3">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1629923021487>
+            </accordion>
         </components>
     </sample>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
                 <responsivegrid jcr:primaryType="nt:unstructured">
-                    <policy_59741430497000
-                        jcr:lastModified="{Date}2021-08-24T19:09:39.152-04:00"
+                    <policy_10500365475667
+                        jcr:lastModified="{Date}2021-08-25T15:23:36.336-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
-                        jcr:title="presentation"
+                        jcr:title="Horizontal Container"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/sample/components/accordion,/apps/sample/components/bladecomponent,/apps/sample/components/blade-sample,/apps/sample/components/breadcrumb,/apps/sample/components/calendar-golf,/apps/sample/components/contentfragment,/apps/sample/components/contentfragmentlist,/apps/sample/components/golfscores,/apps/sample/components/review-component,/apps/sample/components/navbar,/apps/sample/components/navigation,/apps/sample/components/search]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_10500365475667>
+                    <policy_10525403555625
+                        jcr:lastModified="{Date}2021-08-25T15:38:13.815-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Column Container"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/image,group:Sample Site - Content,group:Sample Site - Form,/apps/wknd/components/textcomp,/apps/wknd/components/textcomp2,/apps/wknd/components/textcompbutton]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_10525403555625>
+                    <policy_428488102846708
+                        jcr:lastModified="{Date}2021-08-24T14:38:36.662-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Subscription Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/apps/sample/components/review-component,/apps/sample/components/subscriptioncomponent]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_428488102846708>
+                    <policy_8740480936666
+                        jcr:lastModified="{Date}2021-08-24T14:42:14.328-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Page Header"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_8740480936666>
+                    <policy_9175324262916
+                        jcr:lastModified="{Date}2021-08-24T14:49:12.507-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Home Page"
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:Sample Site - Content,group:Sample Site - Form,group:Sample Site - Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_59741430497000>
+                    </policy_9175324262916>
                 </responsivegrid>
             </components>
         </foundation>

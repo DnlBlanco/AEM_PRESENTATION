@@ -5,9 +5,11 @@
     <page-content/>
     <xf-web-variation/>
     <rep:policy/>
-    <presentation-experience-fragment/>
     <presentation-template/>
-    <subscription-template/>
     <test-template/>
+    <presentation-experience-fragment/>
+    <subscription-template/>
+    <products-template/>
     <faq-page-template/>
+    <faq2-template/>
 </jcr:root>

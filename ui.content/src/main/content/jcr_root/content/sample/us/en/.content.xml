@@ -79,7 +79,8 @@
             </container>
         </root>
     </jcr:content>
-    <presentation-page/>
     <subscription-page/>
-    <calendar/>
+    <presentation-page/>
+    <products/>
+    <faq-page-2/>
 </jcr:root>

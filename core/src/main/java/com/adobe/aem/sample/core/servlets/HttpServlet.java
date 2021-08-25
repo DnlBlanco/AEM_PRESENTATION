@@ -20,7 +20,7 @@ import com.adobe.aem.sample.core.service.HttpService;
  *
  */
 @Component(service = Servlet.class, property = { Constants.SERVICE_DESCRIPTION + "=HTTP servlet",
-		"sling.servlet.methods=" + HttpConstants.METHOD_GET, "sling.servlet.paths=" + "/bin/golfscores" })
+		"sling.servlet.methods=" + HttpConstants.METHOD_GET, "sling.servlet.paths=" + "/bin/sample/golfscores" })
 public class HttpServlet extends SlingSafeMethodsServlet {
 	
 	/**

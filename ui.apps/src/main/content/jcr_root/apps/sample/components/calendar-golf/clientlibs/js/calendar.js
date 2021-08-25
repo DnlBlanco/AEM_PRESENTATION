@@ -5,7 +5,7 @@ function addEvent() {
 
         $.post(pagePath, function (response) {
         console.log("Event Added");
-        $(".custom-event").append("My Own Event Here, 2021-08-27");});
+        $(".custom-event").append("Golf Day");});
     });
 }
 

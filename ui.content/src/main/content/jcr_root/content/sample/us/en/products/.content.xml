@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-25T16:29:35.952-05:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sample/settings/wcm/templates/products-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Products"
+        sling:resourceType="sample/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container">
+            <experiencefragment
+                jcr:created="{Date}2021-08-24T14:48:39.228-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-24T14:51:25.044-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/experiencefragment"
+                fragmentVariationPath="/content/experience-fragments/sample/us/en/site/header-experience-fragment/master"/>
+            <responsivegrid
+                jcr:created="{Date}2021-08-24T14:48:44.076-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-24T14:49:30.180-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <simpletitle
+                    jcr:created="{Date}2021-08-25T14:50:55.786-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-25T14:51:24.337-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Our recommendations..."
+                    sling:resourceType="sample/components/simpletitle"/>
+                <review_component
+                    jcr:created="{Date}2021-08-25T16:29:02.077-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-25T16:29:08.297-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/review-component"
+                    itemDescription="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+                    itemName="Tour Response Golf Ball"
+                    itemPrice="20"
+                    itemVideoUrl="https://www.youtube.com/embed/W5y9dvB_lD8"/>
+                <golfscores
+                    jcr:created="{Date}2021-08-25T16:29:29.969-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-25T16:29:35.923-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/golfscores">
+                    <playerStats jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            playername="Daniel"/>
+                    </playerStats>
+                </golfscores>
+            </responsivegrid>
+        </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/sample/golfworld logo.png"/>
+    </jcr:content>
+</jcr:root>

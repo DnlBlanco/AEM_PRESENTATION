@@ -4,7 +4,7 @@
     <jcr:content
         cq:contextHubPath="/etc/cloudsettings/default/contexthub"
         cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
-        cq:lastModified="{Date}2021-08-24T20:48:13.692-04:00"
+        cq:lastModified="{Date}2021-08-25T15:17:09.509-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sample/settings/wcm/templates/presentation-template"
         jcr:description="AEM Presentation Web Page"
@@ -34,21 +34,6 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="golfworld/components/subscriptioncomponent"/>
-                <calendar_golf
-                    jcr:created="{Date}2021-08-24T10:17:12.372-05:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-24T10:17:43.685-05:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sample/components/calendar-golf"
-                    textIsRich="true">
-                    <event jcr:primaryType="nt:unstructured">
-                        <item0
-                            jcr:primaryType="nt:unstructured"
-                            date="{Date}2021-08-25T00:00:00.000-05:00"
-                            name="Event Made"/>
-                    </event>
-                </calendar_golf>
             </responsivegrid_26921014>
             <responsivegrid
                 jcr:primaryType="nt:unstructured"
@@ -77,18 +62,32 @@
                     isDecorative="false"
                     titleValueFromDAM="true"/>
                 <blade_sample
-                    jcr:created="{Date}2021-08-24T14:44:53.871-04:00"
+                    jcr:created="{Date}2021-08-25T13:34:06.179-05:00"
                     jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-24T17:49:07.985-04:00"
+                    jcr:lastModified="{Date}2021-08-25T13:37:17.394-05:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="sample/components/blade-sample"
-                    bladetitle="WELCOME TO GOLF WORLD"
+                    bladetitle="Golf World"
                     content="&quot;For all of your golfing needs&quot;"
-                    fileReference="/content/dam/sample/golf-banner-1.jpg"
-                    fileReference2="/content/dam/sample/golf-banner-2.png"
-                    fileReference3="/content/dam/sample/golf-banner-3.jpg"
+                    fileReference="/content/dam/sample/golf-banner-2.png"
+                    fileReference2="/content/dam/sample/golf-banner-3.jpg"
+                    fileReference3="/content/dam/sample/golf-banner-2.png"
                     interval="5"/>
+                <calendar_golf
+                    jcr:created="{Date}2021-08-25T15:02:48.031-05:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-25T15:05:32.716-05:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/calendar-golf">
+                    <event jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            date="{Date}2021-08-24T00:00:00.000-05:00"
+                            name="Event Made"/>
+                    </event>
+                </calendar_golf>
             </responsivegrid>
             <responsivegrid_981197901
                 jcr:primaryType="nt:unstructured"
@@ -109,69 +108,7 @@
             </responsivegrid_981197901>
             <responsivegrid_2059687782
                 jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid">
-                <sample_carousal
-                    jcr:created="{Date}2021-08-24T16:20:03.998-04:00"
-                    jcr:createdBy="admin"
-                    jcr:lastModified="{Date}2021-08-24T20:48:02.984-04:00"
-                    jcr:lastModifiedBy="admin"
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="sample/components/sample-carousal"
-                    autopauseDisabled="false"
-                    autoplay="false"
-                    delay="5000">
-                    <cq:responsive jcr:primaryType="nt:unstructured">
-                        <default
-                            jcr:primaryType="nt:unstructured"
-                            offset="2"
-                            width="8"/>
-                    </cq:responsive>
-                    <item_1629852468340
-                        cq:panelTitle="Promote 4"
-                        jcr:lastModified="{Date}2021-08-24T20:48:13.689-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sample/components/experiencefragment"
-                        fragmentVariationPath="/content/experience-fragments/sample/us/en/site/promote-5/master"/>
-                    <item_1629851006726
-                        cq:panelTitle="promote 3"
-                        jcr:description="&lt;h2>&lt;b>&amp;quot;I feel like I can become the next Tiger Woods!&amp;quot;&lt;/b>&lt;/h2>&#xd;&#xa;"
-                        jcr:lastModified="{Date}2021-08-24T20:32:57.307-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        jcr:title="&quot;Amazing Site!&quot;"
-                        sling:resourceType="sample/components/teaser"
-                        actionsEnabled="false"
-                        descriptionFromPage="false"
-                        fileReference="/content/dam/sample/tiger-woods-golfer.jpg"
-                        textIsRich="true"
-                        titleFromPage="false"/>
-                    <item_1629848184629
-                        cq:panelTitle="promote 2"
-                        jcr:lastModified="{Date}2021-08-24T19:37:03.786-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sample/components/contentfragment"
-                        displayMode="singleText"
-                        elementNames="Quotes_cf"
-                        fragmentPath="/content/dam/sample/promote"
-                        paragraphScope="all"
-                        variationName="master"/>
-                    <contentfragment
-                        cq:panelTitle="promote 1"
-                        jcr:created="{Date}2021-08-24T19:34:23.951-04:00"
-                        jcr:createdBy="admin"
-                        jcr:lastModified="{Date}2021-08-24T19:35:07.918-04:00"
-                        jcr:lastModifiedBy="admin"
-                        jcr:primaryType="nt:unstructured"
-                        sling:resourceType="sample/components/contentfragment"
-                        displayMode="singleText"
-                        elementNames="Quotes_cf"
-                        fragmentPath="/content/dam/sample/promote"
-                        paragraphScope="all"
-                        variationName="quote_2"/>
-                </sample_carousal>
-            </responsivegrid_2059687782>
+                sling:resourceType="wcm/foundation/components/responsivegrid"/>
             <experiencefragment
                 jcr:lastModified="{Date}2021-08-23T20:16:46.352-05:00"
                 jcr:lastModifiedBy="admin"
@@ -180,10 +117,13 @@
                 fragmentPath="/content/experience-fragments/sample/us/en/site/header-experience-fragment/master"
                 text="Home Sample Site Contact About Us"/>
             <experiencefragment_1726750886
-                jcr:lastModified="{Date}2021-08-03T09:17:36.562-05:00"
+                jcr:lastModified="{Date}2021-08-25T14:56:42.916-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                fragmentVariationPath="/content/experience-fragments/sample/us/en/site/footer-experience-fragment/master"/>
+                sling:resourceType="sample/components/experiencefragment"/>
         </root>
+        <image
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/sample/golfworld logo.png"/>
     </jcr:content>
 </jcr:root>

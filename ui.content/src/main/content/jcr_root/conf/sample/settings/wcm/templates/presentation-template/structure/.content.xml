@@ -3,17 +3,14 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:deviceGroups="[mobile/groups/responsive]"
-        cq:lastModified="{Date}2021-08-24T16:08:18.913-04:00"
+        cq:lastModified="{Date}2021-08-25T14:59:07.692-05:00"
         cq:lastModifiedBy="admin"
         cq:template="/conf/sample/settings/wcm/templates/presentation-template"
         jcr:primaryType="cq:PageContent"
         sling:resourceType="sample/components/page">
         <root
-            jcr:lastModified="{Date}2021-08-24T15:29:16.704-04:00"
-            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="sample/components/container"
-            layout="responsiveGrid">
+            sling:resourceType="sample/components/container">
             <experiencefragment
                 jcr:created="{Date}2021-07-30T08:59:01.042-05:00"
                 jcr:createdBy="admin"
@@ -47,30 +44,7 @@
             <responsivegrid_981197901
                 jcr:created="{Date}2021-07-30T08:59:11.225-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-07-30T08:59:11.225-05:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="wcm/foundation/components/responsivegrid"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="3"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
-                    <tablet
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
-                </cq:responsive>
-            </responsivegrid_981197901>
-            <responsivegrid_26921014
-                jcr:created="{Date}2021-07-30T08:59:16.128-05:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-07-30T08:59:16.128-05:00"
+                jcr:lastModified="{Date}2021-08-25T14:58:21.555-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
@@ -80,20 +54,12 @@
                         jcr:primaryType="nt:unstructured"
                         offset="0"
                         width="6"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        behavior="newline"/>
-                    <tablet
-                        jcr:primaryType="nt:unstructured"
-                        behavior="newline"
-                        offset="0"
-                        width="12"/>
                 </cq:responsive>
-            </responsivegrid_26921014>
-            <responsivegrid_2059687782
-                jcr:created="{Date}2021-07-30T08:59:21.357-05:00"
+            </responsivegrid_981197901>
+            <responsivegrid_26921014
+                jcr:created="{Date}2021-07-30T08:59:16.128-05:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-07-30T08:59:21.357-05:00"
+                jcr:lastModified="{Date}2021-08-25T14:58:25.936-05:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wcm/foundation/components/responsivegrid"
@@ -102,33 +68,9 @@
                     <default
                         jcr:primaryType="nt:unstructured"
                         offset="0"
-                        width="3"/>
-                    <phone
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
-                    <tablet
-                        jcr:primaryType="nt:unstructured"
-                        offset="0"
-                        width="12"/>
+                        width="6"/>
                 </cq:responsive>
-            </responsivegrid_2059687782>
-            <experiencefragment_1726750886
-                jcr:created="{Date}2021-08-03T09:15:52.559-05:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2021-08-03T09:15:52.559-05:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="sample/components/experiencefragment"
-                editable="{Boolean}true">
-                <cq:responsive jcr:primaryType="nt:unstructured">
-                    <default
-                        jcr:primaryType="nt:unstructured"
-                        behavior="hide"
-                        offset="0"
-                        width="12"/>
-                </cq:responsive>
-            </experiencefragment_1726750886>
+            </responsivegrid_26921014>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

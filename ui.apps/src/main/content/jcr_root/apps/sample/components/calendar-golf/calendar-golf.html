@@ -3,11 +3,13 @@
 <sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
 data-sly-call="${clientlib.all @ categories='sample.components.calendar-golf'}"/>
 
-<body>
+<div style="width: 100%">
 
+
+<div class="column" style="width:50% float:left">
     <div class="card">
         <p class="card-header" id="monthAndYear">August</p>
-        <table class="table" id="calendar" width: 100%>
+        <table class="calendar-table" id="calendar">
 
 <tr>
 <th>Su</th>
@@ -21,8 +23,7 @@ data-sly-call="${clientlib.all @ categories='sample.components.calendar-golf'}"/
 
 <tr>
 <td>1</td>
-<td style="height:100px;width:200px">2
-  <mark class="first-event">Golf Day</mark>
+<td>2
 </td>
 <td>3</td>
 <td>4</td>
@@ -57,7 +58,7 @@ data-sly-call="${clientlib.all @ categories='sample.components.calendar-golf'}"/
 <td>24</td>
 <td>25</td>
 <td>26</td>
-<td style="height:100px;width:200px">27
+<td style="height:70px;width:140px">27
    <mark class="custom-event"></mark></td>
 <td>28</td>
 </tr>
@@ -73,9 +74,9 @@ data-sly-call="${clientlib.all @ categories='sample.components.calendar-golf'}"/
 </tr>
 </table>
 
-<div class="box">
-<div class="upcoming-events">Upcoming Events:</div>
-<ul data-sly-list.event="${model.event}" data-sly-unwrap>
+<div style="margin-left:70%; margin-top: -20%">
+  <h1 class="upcoming-events">Upcoming Events:</h1>
+  <ul data-sly-list.event="${model.event}" data-sly-unwrap>
     <div id='listID'>
         <li class="event-list">${event.name}, ${event.date}</li>
             <div class="dropdown">
@@ -87,5 +88,8 @@ data-sly-call="${clientlib.all @ categories='sample.components.calendar-golf'}"/
              </div>
     </div>
 </div>
-</body>
-</html>
+
+
+</div>
+</div>
+</div>

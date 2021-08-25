@@ -1,4 +1,3 @@
-
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
 	
@@ -6,13 +5,13 @@
 
 <sly
 	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
-	data-sly-call="${clientlib.all @ categories='sample.site2'}" />
+	data-sly-call="${clientlib.all @ categories='sample.components.golfscores'}" />
 <h2 style="text-align: center;">PGA Top Five Players To Watch</h2>
 <div
 	data-sly-use.model="com.adobe.aem.sample.core.models.PlayerStatsModel" id="scoretable">
 
 	<table data-sly-test="${model.playerStats}" class="center">
-		<thead>
+		<thead class="tabledesign">
 			<th>Player Name</th>
 			<th>Rank Last Week</th>
 			<th>Rank This Week</th>
@@ -22,7 +21,7 @@
 			<th>Total Adjustment</th>
 			<th>Total Rounds</th>
 		</thead>
-		<tbody data-sly-list.ps="${model.playerStats}">
+		<tbody data-sly-list.ps="${model.playerStats}" class="tabledesign">
 			<tr>
 				<td>${ps.playername}</td>
 				<td>${ps.ranklastweek}</td>
@@ -35,7 +34,7 @@
 			</tr>
 		</tbody>
 	</table>
-    <div data-sly-test="${!model.playerStats}"><strong>Page Maintenance!</strong></div>
+    <div data-sly-test="${!model.playerStats}"><strong>No Scores Available</strong></div>
 </div>
 <div>
 
