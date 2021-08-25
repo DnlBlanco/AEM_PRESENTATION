@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="blade-component"
+    sling:resourceType="cq/gui/components/authoring/dialog"
+    enctype="multipart/form-data">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tabs
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs"
+                maximized="{Boolean}false">
+                <items jcr:primaryType="nt:unstructured">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Properties"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <content
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        emptyText="title"
+                                        fieldDescription="title goes here"
+                                        fieldLabel="The Title"
+                                        name="./bladetitle"/>
+                                    <image
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/fileupload"
+                                        allowUpload="{Boolean}false"
+                                        class="cq-droptarget"
+                                        emptyText="Upload your backgrounds here"
+                                        fieldDescription="The Images"
+                                        fieldLabel="Images"
+                                        fileNameParameter="./fileName"
+                                        fileReferenceParameter="./fileReference"
+                                        mimeTypes="[image]"
+                                        name="./file"
+                                        required="{Boolean}false"
+                                        title="Images"
+                                        uploadUrl="${suffix.path}"
+                                        useHTML5="{Boolean}false"/>
+                                    <image2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/fileupload"
+                                        allowUpload="{Boolean}false"
+                                        class="cq-droptarget"
+                                        emptyText="Upload your backgrounds here"
+                                        fieldDescription="The Images"
+                                        fieldLabel="Images"
+                                        fileNameParameter="./fileName2"
+                                        fileReferenceParameter="./fileReference2"
+                                        mimeTypes="[image]"
+                                        name="./file2"
+                                        required="{Boolean}false"
+                                        title="Images"
+                                        uploadUrl="${suffix.path}"
+                                        useHTML5="{Boolean}false"/>
+                                    <image3
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/fileupload"
+                                        allowUpload="{Boolean}false"
+                                        class="cq-droptarget"
+                                        emptyText="Upload your backgrounds here"
+                                        fieldDescription="The Images"
+                                        fieldLabel="Images"
+                                        fileNameParameter="./fileName3"
+                                        fileReferenceParameter="./fileReference3"
+                                        mimeTypes="[image]"
+                                        name="./file3"
+                                        required="{Boolean}false"
+                                        title="Images"
+                                        uploadUrl="${suffix.path}"
+                                        useHTML5="{Boolean}false"/>
+                                    <interval
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                        emptyText="interval in seconds"
+                                        fieldDescription="Enter time interval in seconds"
+                                        fieldLabel="Rotation Interval"
+                                        min="{Long}5"
+                                        name="./interval"/>
+                                </items>
+                            </container>
+                        </items>
+                    </properties>
+                    <content
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Content"
+                        sling:resourceType="granite/ui/components/coral/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <container
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <content
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        emptyText="Content"
+                                        fieldDescription="Content goes here"
+                                        fieldLabel="Your Content"
+                                        name="./content"/>
+                                </items>
+                            </container>
+                        </items>
+                    </content>
+                </items>
+            </tabs>
+        </items>
+    </content>
+</jcr:root>

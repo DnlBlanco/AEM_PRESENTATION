@@ -1,0 +1,43 @@
+.cmp-blade__title{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: goldenrod;
+}
+
+.cmp-blade__content{
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: goldenrod;
+  font-style: italic;
+  text-shadow: 1.5px 1.5px 1.5px black;
+   font-weight: bold;
+
+}
+.background_container{
+    //border-style: dashed;
+    //border-color: black;
+    position: relative;
+    //border-style:dashed;
+	z-index:1
+}
+.background_container::before{
+    background-image: var(--set-image, none);
+    content: '';
+    position:absolute;
+    width: 100%;
+    height: 100%;
+	top:0px;
+    left:0px;
+    opacity:0.7;
+    z-index: -1;
+    background-size: cover;
+}
