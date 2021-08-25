@@ -192,3 +192,9 @@ header.experiencefragment .cmp-search__input {
     visibility: hidden;
     font-size:0;
 }
+.cmp-contentfragment__element-value{
+    text-align:center;
+}
+.cmp-teaser__description{
+    text-align:center;
+}
