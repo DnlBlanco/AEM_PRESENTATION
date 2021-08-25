@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/conf/sample/settings/wcm/templates/(?!xf-).*"
+        cq:conf="/conf/sample"
+        cq:lastModified="{Date}2021-07-30T08:45:45.557-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Content"
+        sling:configRef="/conf/sample"
+        sling:redirect="true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        redirectTarget="/content/sample/us/en">
+        <house-1
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="423 Royal Dr"
+            city="Lewisville"
+            description="First House Saved in the JCR"
+            price="355,000"/>
+        <house-2
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="1510 Jamison Dr"
+            city="Allen"
+            description="Second House Saved in the JCR"
+            price="565,000"/>
+        <house-3
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="6760 Home St"
+            city="Dallas"
+            description="Third House Saved in the JCR"
+            price="585,000"/>
+        <house-4
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="4900 El Toro St"
+            city="The Colony"
+            description="Fourth House Saved in the JCR"
+            price="365,000"/>
+        <house-5
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="1496 Colina Dr"
+            city="Plano"
+            description="Fifth House Saved in the JCR"
+            price="400,000"/>
+        <house-6
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="3311 Aurora Ln"
+            city="Frisco"
+            description="Sixth House Saved in the JCR"
+            price="377,000"/>
+        <house-7
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="3369 Castle St"
+            city="McKinney"
+            description="Seventh House Saved in the JCR"
+            price="600,000"/>
+        <house-8
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/housecomponent"
+            address="11390 Santa Maria Rd"
+            city="Prosper"
+            description="Eight House Saved in the JCR"
+            price="398,000"/>
+    </jcr:content>
+</jcr:root>
