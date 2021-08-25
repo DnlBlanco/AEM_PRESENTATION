@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="/conf/sample/settings/wcm/templates/(?!xf-).*"
+        cq:conf="/conf/sample"
+        cq:lastModified="{Date}2021-07-30T08:45:45.557-05:00"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Content"
+        sling:configRef="/conf/sample"
+        sling:redirect="true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="foundation/components/redirect"
+        redirectTarget="/content/sample/us/en">
+        <item1
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="&#xa;sample/components/review-component"
+            itemDescription="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+            itemName="Taylor Made M4 Golf Clubs"
+            itemPrice="999"
+            itemVideoUrl="https://www.youtube.com/embed/dxHLtcHWnzI"/>
+        <item2
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="&#xa;sample/components/review-component"
+            itemDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            itemName="Bionic Golf Gloves"
+            itemPrice="150"
+            itemVideoUrl="https://www.youtube.com/embed/fVxtB5ITTtI"
+            price="355,000"/>
+        <item3
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="&#xa;sample/components/review-component"
+            itemDescription="&#xa;&#xa;After you have decided between a carry or trolley option there is still a wide variety of size options available. In the carry bag category you’ll find very lightweight designs with little pocket space, as well as models that are as big as the smallest cart bags.&#xa;&#xa;Stability&#xa;&#xa;If you are opting for a stand bag you’ll want legs that spread widely to offer support when the bag is stood up in the wind."
+            itemName="Callaway Golf Bag"
+            itemPrice="499"
+            itemVideoUrl="https://www.youtube.com/embed/dM9WNN196CM"
+            price="355,000"/>
+        <item4
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="&#xa;sample/components/review-component"
+            itemDescription="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+            itemName="Tour Response Golf Ball"
+            itemPrice="20"
+            itemVideoUrl="https://www.youtube.com/embed/W5y9dvB_lD8"
+            price="355,000"/>
+        <item5
+            jcr:created="{Date}2021-08-04T15:14:55.902-05:00"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-08-04T19:35:28.530-05:00"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="&#xa;sample/components/review-component"
+            itemDescription="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+            itemName="Callaway 300 Pro Range Finder"
+            itemPrice="249"
+            itemVideoUrl="https://www.youtube.com/embed/sSXnFDYnDd0"
+            price="355,000"/>
+    </jcr:content>
+</jcr:root>

@@ -1,3 +1,0 @@
-
-#base=js
-background-image.js
