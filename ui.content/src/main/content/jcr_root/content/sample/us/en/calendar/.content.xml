@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-24T18:41:00.256-04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/sample/settings/wcm/templates/subscription-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Calendar"
+        sling:resourceType="sample/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="sample/components/container"
+                layout="responsiveGrid">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        behavior="none"/>
+                </cq:responsive>
+            </container>
+            <experiencefragment
+                jcr:created="{Date}2021-08-23T21:55:49.592-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-24T14:50:16.202-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/experience-fragments/editor/components/experiencefragment"
+                fragmentPath="/content/experience-fragments/sample/us/en/site/header-experience-fragment/master"
+                text="Home FAQs Calendar of Events Products Susbscribe"/>
+            <responsivegrid
+                jcr:created="{Date}2021-08-23T21:56:34.322-05:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-23T22:00:45.903-05:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <calendar_golf
+                    jcr:created="{Date}2021-08-24T14:50:22.811-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-24T18:41:00.253-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/calendar-golf"
+                    textIsRich="true">
+                    <event jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            date="{Date}2021-08-25T00:00:00.000-04:00"
+                            name="Golf"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            date="{Date}2021-08-31T00:00:00.000-04:00"
+                            name="Golf"/>
+                    </event>
+                </calendar_golf>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

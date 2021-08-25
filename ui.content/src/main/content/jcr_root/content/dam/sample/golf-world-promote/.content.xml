@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="95e2473d-3ccc-4cbc-8e38-c50566774772">
+    <jcr:content
+        cq:name="golf-world-promote"
+        cq:parentPath="/content/dam/sample"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="GOLF WORLD-promote"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/sample/Presentation Content Fragments/settings/dam/cfm/models/golf-world"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                Quotes_cf_x0040_LastModified="{Date}2021-08-24T19:31:34.577-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

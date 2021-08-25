@@ -1,9 +1,7 @@
 package com.adobe.aem.sample.core.servlets;
 
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
+
 
 import javax.servlet.Servlet;
 
@@ -13,9 +11,9 @@ import org.apache.sling.api.servlets.SlingSafeMethodsServlet;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Reference;
 
-import com.adobe.aem.sample.core.schedulers.Blade_SchedulerJob;
+
 import com.adobe.aem.sample.core.service.Serve_Background;
-import com.fasterxml.jackson.databind.deser.ValueInstantiator.Gettable;
+
 
 /**
  * 
@@ -36,7 +34,7 @@ public class Background_Servlet extends  SlingSafeMethodsServlet {
 	@Reference 
 	Serve_Background getCurrentPath;
 	
-	Blade_SchedulerJob interval = new Blade_SchedulerJob();
+	//Blade_SchedulerJob interval = new Blade_SchedulerJob();
 	
 	
 	
@@ -50,20 +48,14 @@ public class Background_Servlet extends  SlingSafeMethodsServlet {
 		//after running the bundle, it was a sucess.
 		String check = request.getParameter("check"); //this is returning null for some reason...
 		String[] listOfImages = null;
-		int currentIndex = 0;
+		int currentIndex=0;
 		if(check.equals("switch")) {
 			//this line causes problem as this cannot be 'casted'
 			//this is returning null because the split is not coming though for one item.
 			listOfImages = request.getParameterValues("images");
-			//currentIndex = Integer.parseInt(request.getParameter("currentIndex"));
-			//boolean test = true;
-			if(interval.rotate() == true) { //i need it some that the call for this method is not going to send to an infinite loop....
-				currentIndex = getCurrentPath.getNextImagePath(currentIndex, listOfImages);
-				response.getWriter().write(listOfImages[currentIndex]);
-			}
-			else {
-				response.getWriter().write(listOfImages[currentIndex]);
-			}
+			currentIndex = Integer.parseInt(request.getParameter("index"));
+			currentIndex = getCurrentPath.getNextImagePath(currentIndex, listOfImages);
+			response.getWriter().write(listOfImages[currentIndex]); //this is event e that is returned.
 		}
 	}
 

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9bafd306-ccfb-4906-8cee-34ed353ce3e9">
+    <jcr:content
+        cq:name="promote"
+        cq:parentPath="/content/dam/sample"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T19:33:48.645-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Promote"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T19:33:48.645-04:00">
+        <data
+            cq:model="/conf/sample/Presentation Content Fragments/settings/dam/cfm/models/golf-world"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                Quotes_cf="&quot;Golf World has leveled up my  golfing game by ten-folds! Highly Recommend!&quot;"
+                Quotes_cf_x0040_LastModified="{Date}2021-08-24T19:30:53.046-04:00"/>
+            <quote_2
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                Quotes_cf="&quot;I had a hard time figuring out what gear to get, but Golf World Made it easy!&quot;"
+                Quotes_cf_x0040_LastModified="{Date}2021-08-24T19:33:48.630-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <quote_2
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Quote 2"
+                    name="quote_2">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[Quotes_cf:6066af43-c4cf-4f51-9a87-14deca058e22]"/>
+                </quote_2>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

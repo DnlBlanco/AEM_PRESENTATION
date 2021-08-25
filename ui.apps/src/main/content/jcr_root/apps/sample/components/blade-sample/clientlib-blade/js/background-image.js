@@ -9,10 +9,12 @@
 // 'let' or 'var' is used so that the variable can identified as a global variable.
 var listOfImages = []; //create an ArrayList to keep the values and iterate over them
 var currentIndex = 0; //this will vreak when a user tries to set the current index to any number out of bounds of what was defined in list
+
 window.addEventListener('load',(event) =>{
     console.log('DOM fully loaded and parsed');
 	let paths = $('#image_container'); //using jQuery to grab the element that has the unique ID value
-
+	let intervalData = $('#image_container');
+	var interval = 0;
 	//...so
 
 	//parameters that the .each method takes in is the function that will using key,value pairs 
@@ -24,6 +26,13 @@ window.addEventListener('load',(event) =>{
         }
 	);
 
+var test = 0;
+$(intervalData.data('interval')).each(function(key,value){
+	test = value;
+});
+//console.log("The interval recorded is: " + test);
+
+
 	let backgroundElement = document.querySelector('.background_container'); //grabbing the class name of the container
 	backgroundElement.style.setProperty('--set-image', 'url('+listOfImages[currentIndex]+')'); //enables the changing of the pseudo element css properties.
 
@@ -31,30 +40,30 @@ window.addEventListener('load',(event) =>{
 
 	//running function that is set to call a function every 5 seconds.
 	setInterval(function (){
-	if (currentIndex == listOfImages.length-1){
-		currentIndex = 0;
-	}else {
-		currentIndex+=1;
-	}
-    console.log("current background is: "+ listOfImages[currentIndex]);
-	let backgroundElement = document.querySelector('.background_container'); //grabbing the class name of the container
-	backgroundElement.style.setProperty('--set-image', 'url('+listOfImages[currentIndex]+')'); //i need to check the back end every second
+	//if (currentIndex == listOfImages.length-1){
+	//	currentIndex = 0;
+	//}else {
+	//	currentIndex+=1;
+	//}
+    //console.log("current background is: "+ listOfImages[currentIndex]);
+	//let backgroundElement = document.querySelector('.background_container'); //grabbing the class name of the container
+	//backgroundElement.style.setProperty('--set-image', 'url('+listOfImages[currentIndex]+')'); //i need to check the back end every second
 
 
 	//edited on 08/23/2021
 
 
-	//console.log("going inside of ajax");
-	//$.get("/bin/backgroundServlet", {check:"switch", images:listOfImages}, function (e){
-    //    console.log("inside of ajax");
-	//	let backgroundElement = document.querySelector('.background_container'); //grabbing the class name of the container
-	//	backgroundElement.style.setProperty('--set-image', 'url('+e+')'); //i need to check the back end every second
-    //     //nsole.log(e);  //its' like the servlet does not get called again after this function ends
+        $.get("/bin/backgroundServlet", {check:"switch", images:listOfImages, index:currentIndex}, function (e){
+        console.log("inside of ajax");
+		let backgroundElement = document.querySelector('.background_container'); //grabbing the class name of the container
+		backgroundElement.style.setProperty('--set-image', 'url('+e+')'); //i need to check the back end every second
+		console.log(listOfImages.indexOf(e));
+        currentIndex = listOfImages.indexOf(e);
 
-	//})
+	})
     //console.log("outside of the ajax")
 
-}, 5000);
+}, test*1000);
 
 
 });

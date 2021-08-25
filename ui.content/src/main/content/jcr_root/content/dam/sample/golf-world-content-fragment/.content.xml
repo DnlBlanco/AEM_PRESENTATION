@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="9c31c544-1bce-4ebc-a469-7c302290847a">
+    <jcr:content
+        cq:name="golf-world-content-fragment"
+        cq:parentPath="/content/dam/sample"
+        jcr:lastModified="{Date}2021-08-24T16:00:48.656-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="&quot;Golf World leveled up my golfing game&quot;"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T16:00:48.656-04:00">
+        <data
+            cq:model="/conf/sample/Presentation Content Fragments/settings/dam/cfm/models/golf-world-content-fragment-model-2"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                promote-image="/content/dam/sample/golf-image-2.jpeg"
+                promote-image_x0040_LastModified="{Date}2021-08-24T15:56:55.557-04:00"
+                quote-promotion="&quot;Golf World leveled up my golf game!&quot;"
+                quote-promotion_x0040_LastModified="{Date}2021-08-24T15:56:55.557-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

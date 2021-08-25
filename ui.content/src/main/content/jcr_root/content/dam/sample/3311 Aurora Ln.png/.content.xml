@@ -8,14 +8,13 @@
         cq:name="3311 Aurora Ln.png"
         cq:parentPath="/content/dam/sample"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-08-24T11:44:48.769-04:00"
-        jcr:lastModifiedBy="admin"
+        jcr:lastModified="{Date}2021-08-24T13:49:37.662-04:00"
+        jcr:lastModifiedBy="tag-validation-service"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            cq:tags="[sample:house]"
             cq:tags_xmpArrayType="rdf:Bag"
             dam:Bitsperpixel="{Long}32"
-            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:ns2=&quot;http://www.day.com/jcr/cq/1.0&quot;&#xa;    xmlns:Iptc4xmpCore=&quot;http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2021-08-05T08:12:55.377-05:00&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;0&quot;&#xa;   ns1:sha1=&quot;7b2f56b0b8cc7c825c297a5f5499d2d8970d7af0&quot;&#xa;   ns1:size=&quot;301557&quot;&#xa;   tiff:ImageLength=&quot;350&quot;&#xa;   tiff:ImageWidth=&quot;445&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2021-08-05T08:14:00.569-05:00&quot;>&#xa;   &lt;ns2:tags>&#xa;    &lt;rdf:Bag>&#xa;     &lt;rdf:li>sample:house&lt;/rdf:li>&#xa;    &lt;/rdf:Bag>&#xa;   &lt;/ns2:tags>&#xa;   &lt;Iptc4xmpCore:CreatorContactInfo rdf:parseType=&quot;Resource&quot;/>&#xa;  &lt;/rdf:Description>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
+            dam:Comments="XML:com.adobe.xmp: &lt;?xpacket begin=&quot;﻿&quot; id=&quot;W5M0MpCehiHzreSzNTczkc9d&quot;?>&#xa;&lt;x:xmpmeta xmlns:x=&quot;adobe:ns:meta/&quot; x:xmptk=&quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &quot;>&#xa; &lt;rdf:RDF xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;>&#xa;  &lt;rdf:Description rdf:about=&quot;&quot;&#xa;    xmlns:ns1=&quot;http://www.day.com/dam/1.0&quot;&#xa;    xmlns:tiff=&quot;http://ns.adobe.com/tiff/1.0/&quot;&#xa;    xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;&#xa;    xmlns:ns2=&quot;http://www.day.com/jcr/cq/1.0&quot;&#xa;    xmlns:Iptc4xmpCore=&quot;http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/&quot;&#xa;   ns1:Physicalheightininches=&quot;-1.0&quot;&#xa;   ns1:Physicalwidthininches=&quot;-1.0&quot;&#xa;   ns1:Fileformat=&quot;PNG&quot;&#xa;   ns1:Progressive=&quot;no&quot;&#xa;   ns1:extracted=&quot;2021-08-24T11:44:45.838-04:00&quot;&#xa;   ns1:Bitsperpixel=&quot;32&quot;&#xa;   ns1:MIMEtype=&quot;image/png&quot;&#xa;   ns1:Comments=&quot;XML:com.adobe.xmp: &amp;lt;?xpacket begin=&amp;quot;﻿&amp;quot; id=&amp;quot;W5M0MpCehiHzreSzNTczkc9d&amp;quot;?&amp;gt;&amp;#xA;&amp;lt;x:xmpmeta xmlns:x=&amp;quot;adobe:ns:meta/&amp;quot; x:xmptk=&amp;quot;Adobe XMP Core 5.6-c137 1.000000, 0000/00/00-00:00:00        &amp;quot;&amp;gt;&amp;#xA; &amp;lt;rdf:RDF xmlns:rdf=&amp;quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&amp;quot;&amp;gt;&amp;#xA;  &amp;lt;rdf:Description rdf:about=&amp;quot;&amp;quot;&amp;#xA;    xmlns:ns1=&amp;quot;http://www.day.com/dam/1.0&amp;quot;&amp;#xA;    xmlns:tiff=&amp;quot;http://ns.adobe.com/tiff/1.0/&amp;quot;&amp;#xA;    xmlns:dc=&amp;quot;http://purl.org/dc/elements/1.1/&amp;quot;&amp;#xA;    xmlns:ns2=&amp;quot;http://www.day.com/jcr/cq/1.0&amp;quot;&amp;#xA;    xmlns:Iptc4xmpCore=&amp;quot;http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/&amp;quot;&amp;#xA;   ns1:Physicalheightininches=&amp;quot;-1.0&amp;quot;&amp;#xA;   ns1:Physicalwidthininches=&amp;quot;-1.0&amp;quot;&amp;#xA;   ns1:Fileformat=&amp;quot;PNG&amp;quot;&amp;#xA;   ns1:Progressive=&amp;quot;no&amp;quot;&amp;#xA;   ns1:extracted=&amp;quot;2021-08-05T08:12:55.377-05:00&amp;quot;&amp;#xA;   ns1:Bitsperpixel=&amp;quot;32&amp;quot;&amp;#xA;   ns1:MIMEtype=&amp;quot;image/png&amp;quot;&amp;#xA;   ns1:Physicalwidthindpi=&amp;quot;-1&amp;quot;&amp;#xA;   ns1:Physicalheightindpi=&amp;quot;-1&amp;quot;&amp;#xA;   ns1:Numberofimages=&amp;quot;1&amp;quot;&amp;#xA;   ns1:Numberoftextualcomments=&amp;quot;0&amp;quot;&amp;#xA;   ns1:sha1=&amp;quot;7b2f56b0b8cc7c825c297a5f5499d2d8970d7af0&amp;quot;&amp;#xA;   ns1:size=&amp;quot;301557&amp;quot;&amp;#xA;   tiff:ImageLength=&amp;quot;350&amp;quot;&amp;#xA;   tiff:ImageWidth=&amp;quot;445&amp;quot;&amp;#xA;   dc:format=&amp;quot;image/png&amp;quot;&amp;#xA;   dc:modified=&amp;quot;2021-08-05T08:14:00.569-05:00&amp;quot;&amp;gt;&amp;#xA;   &amp;lt;ns2:tags&amp;gt;&amp;#xA;    &amp;lt;rdf:Bag&amp;gt;&amp;#xA;     &amp;lt;rdf:li&amp;gt;sample:house&amp;lt;/rdf:li&amp;gt;&amp;#xA;    &amp;lt;/rdf:Bag&amp;gt;&amp;#xA;   &amp;lt;/ns2:tags&amp;gt;&amp;#xA;   &amp;lt;Iptc4xmpCore:CreatorContactInfo rdf:parseType=&amp;quot;Resource&amp;quot;/&amp;gt;&amp;#xA;  &amp;lt;/rdf:Description&amp;gt;&amp;#xA; &amp;lt;/rdf:RDF&amp;gt;&amp;#xA;&amp;lt;/x:xmpmeta&amp;gt;&amp;#xA;&amp;lt;?xpacket end=&amp;quot;r&amp;quot;?&amp;gt;&amp;#xA;&quot;&#xa;   ns1:Physicalwidthindpi=&quot;-1&quot;&#xa;   ns1:Physicalheightindpi=&quot;-1&quot;&#xa;   ns1:Numberofimages=&quot;1&quot;&#xa;   ns1:Numberoftextualcomments=&quot;1&quot;&#xa;   ns1:sha1=&quot;99637887125649bba8ddbcb2e9605466ee0501af&quot;&#xa;   ns1:size=&quot;302874&quot;&#xa;   tiff:ImageLength=&quot;350&quot;&#xa;   tiff:ImageWidth=&quot;445&quot;&#xa;   dc:format=&quot;image/png&quot;&#xa;   dc:modified=&quot;2021-08-05T08:14:00.569-05:00&quot;>&#xa;   &lt;ns2:tags>&#xa;    &lt;rdf:Bag>&#xa;     &lt;rdf:li>sample:house&lt;/rdf:li>&#xa;    &lt;/rdf:Bag>&#xa;   &lt;/ns2:tags>&#xa;   &lt;Iptc4xmpCore:CreatorContactInfo rdf:parseType=&quot;Resource&quot;/>&#xa;  &lt;/rdf:Description>&#xa; &lt;/rdf:RDF>&#xa;&lt;/x:xmpmeta>&#xa;&lt;?xpacket end=&quot;r&quot;?>&#xa;"
             dam:extracted="{Date}2021-08-24T11:44:45.838-04:00"
             dam:Fileformat="PNG"
             dam:MIMEtype="image/png"
@@ -26,17 +25,21 @@
             dam:Physicalwidthindpi="{Long}-1"
             dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="4b8edd01d3e46d7f57e8191fc18ef73377b3ded9"
+            dam:sha1="1a509e00c9c0c2cda42ce40ce302082d667dcf14"
             dam:size="{Long}302874"
             dc:format="image/png"
             dc:modified="{Date}2021-08-05T08:14:00.569-05:00"
-            jcr:lastModified="{Date}2021-08-24T11:44:48.480-04:00"
-            jcr:lastModifiedBy="admin"
+            jcr:lastModified="{Date}2021-08-24T13:49:37.264-04:00"
+            jcr:lastModifiedBy="tag-validation-service"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
             tiff:ImageLength="{Long}350"
             tiff:ImageWidth="{Long}445">
             <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+            <cq:tags
+                jcr:primaryType="nt:unstructured"
+                xmpArrayType="rdf:Bag"
+                xmpNodeType="xmpArray"/>
         </metadata>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>

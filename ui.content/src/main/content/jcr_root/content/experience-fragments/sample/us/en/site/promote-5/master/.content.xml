@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-24T20:48:25.552-04:00"
+        cq:lastModifiedBy="admin"
+        cq:tags="[]"
+        cq:template="/conf/sample/settings/wcm/templates/xf-web-variation"
+        cq:xfMasterVariation="{Boolean}true"
+        cq:xfVariantType="web"
+        jcr:description="Experience fragment that is used to create different variations of the same experience."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Promote 5"
+        sling:resourceType="sample/components/xfpage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sample/components/container"
+            layout="responsiveGrid">
+            <image
+                cq:masterBuildingBlock="{Boolean}true"
+                jcr:created="{Date}2021-08-24T20:41:40.806-04:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-24T20:46:22.380-04:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="ex-fragment-block1"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <image476721346721200
+                    jcr:lastModified="{Date}2021-08-24T20:41:58.543-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/image"
+                    fileReference="/content/dam/golfworld/golf-image-1.jpeg">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="5"/>
+                    </cq:responsive>
+                </image476721346721200>
+                <item476721347355300
+                    jcr:created="{Date}2021-08-24T20:42:45.875-04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-08-24T20:48:25.523-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="sample/components/text"
+                    text="&lt;p>&lt;span style=&quot;font-weight: normal;&quot;>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Blandit volutpat maecenas volutpat blandit aliquam etiam erat. Sit amet mauris commodo quis imperdiet massa tincidunt. Cras ornare arcu dui vivamus arcu felis bibendum ut tristique. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Convallis tellus id interdum velit laoreet id donec. A cras semper auctor neque vitae tempus quam pellentesque nec. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Dolor sit amet consectetur adipiscing. Enim diam vulputate ut pharetra sit. Facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat.&lt;/span>&lt;/p>&#xd;&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                </item476721347355300>
+            </image>
+        </root>
+    </jcr:content>
+</jcr:root>

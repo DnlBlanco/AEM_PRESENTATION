@@ -45,6 +45,8 @@ public class Blade_Sample {
 	private String fileReference2;
 	@ValueMapValue
 	private String fileReference3;
+	@ValueMapValue
+	private int interval;
 	
 	
 	@JsonProperty(value="blade-title")
@@ -66,6 +68,10 @@ public class Blade_Sample {
 	
 	public String getFileReference3() {
 		return fileReference3;
+	}
+	
+	public int getInterval() {
+		return interval;
 	}
 	
 }
