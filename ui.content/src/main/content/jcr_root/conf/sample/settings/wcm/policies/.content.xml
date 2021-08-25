@@ -207,10 +207,13 @@
             <container jcr:primaryType="nt:unstructured">
                 <policy_1574694950110
                     jcr:description="Allows the template components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
+                    jcr:lastModified="{Date}2021-08-24T15:44:16.885-04:00"
+                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Root"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:Sample Site - Content,/apps/sample/components/form/container,group:Sample Site - Structure]">
+                    components="[group:Sample Site - Content,/apps/sample/components/form/container,group:Sample Site - Structure]"
+                    layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -237,13 +240,10 @@
                 </policy_1574694950110>
                 <policy_1574695586800
                     jcr:description="Allows the page components and defines the component mapping (this configures what components should be automatically created when authors drop assets from the content finder to the page editor)."
-                    jcr:lastModified="{Date}2021-08-24T11:46:36.923-04:00"
-                    jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     jcr:title="Page Content"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[group:Sample Site - Content,/apps/sample/components/form/container,group:Sample Site - Structure]"
-                    layoutDisabled="false">
+                    components="[group:Sample Site - Content,/apps/sample/components/form/container]">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
                         <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -341,7 +341,57 @@
                     clientlibsJsHead="sample.dependencies">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                 </policy>
+                <policy_60092773997400
+                    jcr:lastModified="{Date}2021-08-24T18:58:00.574-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="GolfWorld Style"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    clientlibs="[wcm.foundation.components.page.responsive,sample.dependencies,sample.site2]">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_60092773997400>
             </page>
+            <embed jcr:primaryType="nt:unstructured">
+                <policy_1629831754290
+                    jcr:lastModified="{Date}2021-08-24T15:03:20.932-04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Enable Youtube"
+                    sling:resourceType="wcm/core/components/policy/policy"
+                    allowedEmbeddables="core/wcm/components/embed/v1/embed/embeddable/youtube"
+                    embeddablesDisabled="false"
+                    htmlDisabled="false"
+                    urlDisabled="false"
+                    youtubeAutoPlayDefaultValue="false"
+                    youtubeAutoPlayEnabled="true"
+                    youtubeLoopDefaultValue="false"
+                    youtubeLoopEnabled="true"
+                    youtubeMuteDefaultValue="true"
+                    youtubeMuteEnabled="true"
+                    youtubePlaysInlineDefaultValue="false"
+                    youtubePlaysInlineEnabled="false"
+                    youtubeRelatedVideosDefaultValue="true"
+                    youtubeRelatedVideosEnabled="false">
+                    <jcr:content jcr:primaryType="nt:unstructured"/>
+                </policy_1629831754290>
+            </embed>
         </components>
     </sample>
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_59741430497000
+                        jcr:lastModified="{Date}2021-08-24T19:09:39.152-04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="presentation"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:Sample Site - Content,group:Sample Site - Form,group:Sample Site - Structure]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_59741430497000>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
 </jcr:root>

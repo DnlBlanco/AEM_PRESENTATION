@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d72c5a57-fa87-4151-966b-56703711a718">
+    <jcr:content
+        cq:name="wear-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T18:13:10.749-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Wear-Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T18:13:10.749-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>Golf World has a very relaxed dress code. We just ask all customers to wear a t-shirt or golf polo, along with pants or shorts. This is a family friendly facility, so please be appropriate.&lt;/p>&#xa;&lt;p>Some golf courses have a strict dress code, and it’s always a good idea to check with the golf shop attendant when making a tee time what the dress code is at that particular course.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T18:13:10.675-04:00"
+                question="What do I wear?"
+                question_x0040_LastModified="{Date}2021-08-24T18:13:10.675-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T18:13:10.676-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

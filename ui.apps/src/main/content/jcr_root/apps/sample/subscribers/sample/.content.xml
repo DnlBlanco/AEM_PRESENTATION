@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
-    <jcr:content
-        cq:lastModified="{Date}2021-07-30T08:45:45.557-05:00"
-        cq:lastModifiedBy="admin"
-        jcr:primaryType="cq:PageContent"
-        jcr:title="Content">
-        <items
-            jcr:primaryType="nt:unstructured"
-            email="daniel@gmail.com"
-            firstName="Daniel"
-            lastName="Blanco"
-            phone="2149738326"/>
-    </jcr:content>
 </jcr:root>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="53994fac-8786-4ea1-b3d5-f19f31fcc677">
+    <jcr:content
+        cq:name="etiquette-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T16:01:39.072-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Etiquette Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T16:01:39.073-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>Having poor etiquette while golfing can not only hurt your group’s morale, but can also affect other players on the golf course. Here’s a few tips to make sure fun is had by all:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>Do your best to keep up with the group in front of you. If your group starts to lose sight of the group playing in front of you, and the group playing behind you is right on your tail, let them “play through” as soon as it is convenient, on the next tee box preferably.&lt;/li>&#xa;&lt;li>If you hit a wayward shot, and it looks like it is heading in the general direction of other people, OR you can’t see the area where the ball will land,&amp;nbsp;ALWAYS yell FORE!!&amp;nbsp;Fore is the universal symbol for “duck” in golf, so players know to keep their head down or take cover. Safety is just as important as anything else on the golf course.&lt;/li>&#xa;&lt;li>Play “Ready Golf”&amp;nbsp;to improve the pace of play. If you are ready to play your shot, and nobody else in your group is ready to hit their shot, feel free to hit your ball as long as it is safe to do so.&lt;/li>&#xa;&lt;li>Keep quiet while other players are standing over their ball. Talking or laughing while other people are hitting can be distracting, and is generally considered rude.&lt;/li>&#xa;&lt;li>Keep golf carts&amp;nbsp;at least 20 feet away&amp;nbsp;from all greens &amp;amp; tee boxes.&lt;/li>&#xa;&lt;li>Leave the golf course as you find it. When you remove the pin from the hole, replace it. When you have to hit out of the bunker, rake the sand. If you take a large divot out of the fairway, replace the piece of grass. If your ball lands on the green and creates a ball mark, fix it.&lt;/li>&#xa;&lt;li>Be kind &amp;amp; courteous to your fellow players. Playing poorly or being in a bad mood is not a good reason to ruin the day of the players around you.&lt;/li>&#xa;&lt;li>HAVE FUN. The more fun you can have, the more relaxed you’ll be, the better you’ll play, and the more fun you’ll have. Spread the word, it’s contagious.&lt;/li>&#xa;&lt;/ol>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T16:01:38.210-04:00"
+                question="Golf Etiquette 101"
+                question_x0040_LastModified="{Date}2021-08-24T16:01:38.206-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T16:01:38.211-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

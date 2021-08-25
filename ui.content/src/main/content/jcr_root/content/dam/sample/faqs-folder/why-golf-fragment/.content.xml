@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e94f5aa6-7803-47de-b57e-0b8828c54943">
+    <jcr:content
+        cq:name="why-golf-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T16:02:51.357-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Why Golf Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T16:02:51.357-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>There is a very long list of reasons to play golf, but I’ll only list a few:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>Golf is a great way to get some exercise&lt;/li>&#xa;&lt;li>Golf is one of the only sports than can be played long after retirement&lt;/li>&#xa;&lt;li>Golf is a great way to bond with friends or family&lt;/li>&#xa;&lt;li>Golf is a great way to relax, and get away from the daily grind&lt;/li>&#xa;&lt;li>Golf is a valuable business tool, and can be a great way to connect with co-workers&lt;/li>&#xa;&lt;li>Golf doesn’t need to be PLAYED to be played – hit balls on the driving range, putting green&lt;/li>&#xa;&lt;li>Golf gets you closer to nature, and further away from your cell phone&lt;/li>&#xa;&lt;li>Golf can be enjoyed at any age or ability level&lt;/li>&#xa;&lt;li>Golf is FUN&lt;/li>&#xa;&lt;/ol>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T16:02:51.286-04:00"
+                question="Why should I golf?"
+                question_x0040_LastModified="{Date}2021-08-24T16:02:51.284-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T16:02:51.290-04:00"/>
+            <faq
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>There is a very long list of reasons to play golf, but I’ll only list a few:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>Golf is a great way to get some exercise&lt;/li>&#xa;&lt;li>Golf is one of the only sports than can be played long after retirement&lt;/li>&#xa;&lt;li>Golf is a great way to bond with friends or family&lt;/li>&#xa;&lt;li>Golf is a great way to relax, and get away from the daily grind&lt;/li>&#xa;&lt;li>Golf is a valuable business tool, and can be a great way to connect with co-workers&lt;/li>&#xa;&lt;li>Golf doesn’t need to be PLAYED to be played – hit balls on the driving range, putting green&lt;/li>&#xa;&lt;li>Golf gets you closer to nature, and further away from your cell phone&lt;/li>&#xa;&lt;li>Golf can be enjoyed at any age or ability level&lt;/li>&#xa;&lt;li>Golf is FUN&lt;/li>&#xa;&lt;/ol>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T16:16:33.040-04:00"
+                question="Why should I golf?"
+                question_x0040_LastModified="{Date}2021-08-24T16:16:33.040-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T16:16:33.040-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <faq
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="FAQ"
+                    name="faq">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[question:c23bee2c-1642-4353-b309-02e58b0a184b,answer:c23bee2c-1642-4353-b309-02e58b0a184b,tags:c23bee2c-1642-4353-b309-02e58b0a184b]"/>
+                </faq>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

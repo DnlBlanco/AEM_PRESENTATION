@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a538c154-3845-455a-b005-f69d4235e3a7">
+    <jcr:content
+        cq:name="own-clubs-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T18:14:35.105-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Own-Clubs-Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T18:14:35.106-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>Golf World has plenty of rental clubs available, including both right &amp;amp; left handed clubs, as well as a few junior sets. Each set comes with a wood, a few irons, a putter, and a couple golf balls. Club rentals start at just $6 per set.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T18:14:35.040-04:00"
+                question="Do I need my own clubs?"
+                question_x0040_LastModified="{Date}2021-08-24T18:14:35.039-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T18:14:35.040-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
