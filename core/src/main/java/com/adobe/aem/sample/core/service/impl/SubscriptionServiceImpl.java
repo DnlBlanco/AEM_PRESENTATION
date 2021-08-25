@@ -1,5 +1,7 @@
 package com.adobe.aem.sample.core.service.impl;
 
+import java.util.UUID;
+
 import javax.jcr.Node;
 import javax.jcr.RepositoryException;
 
@@ -41,8 +43,10 @@ public class SubscriptionServiceImpl implements SubscriptionService{
 		Resource pathResource = resolver.getResource(JCR_NODE_PATH);
 		
 		//Creating a subscriber node.
-		Node subscriberNode = pathResource.adaptTo(Node.class);
+		Node itemsNode = pathResource.adaptTo(Node.class);
 		
+		
+		Node subscriberNode = itemsNode.addNode("item"+UUID.randomUUID().toString());
 		//Filling the values of the node.
 		subscriberNode.setProperty("firstName", firstName);
 		subscriberNode.setProperty("lastName", lastName);
@@ -52,6 +56,7 @@ public class SubscriptionServiceImpl implements SubscriptionService{
 		//Saving the changes.
 		subscriberNode.getSession().save();
 	
+		resolver.close();
 	}
 
 }

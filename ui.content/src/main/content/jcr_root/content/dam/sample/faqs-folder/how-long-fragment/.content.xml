@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2cd37f2f-c4d5-4263-9a23-5f1d44695547">
+    <jcr:content
+        cq:name="how-long-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T16:14:18.641-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="How long Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T16:14:18.641-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>Golf World has several different options for play. Time spent golfing will vary, depending on whether you play 3, 9, 12, or 18-holes.&lt;/p>&#xa;&lt;p>Our 3-hole course should take roughly 45 minutes, 9 holes will take about 1 hour &amp;amp; 45 minutes, 12 holes will take about 2.5 hours, and 18 holes should take about 3.5 hours. Knowing how long your golf round will take can help you plan ahead!&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T16:14:18.351-04:00"
+                question="How long does it take to play golf?"
+                question_x0040_LastModified="{Date}2021-08-24T16:14:18.351-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T16:14:18.352-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
