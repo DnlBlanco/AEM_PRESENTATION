@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:lastModified="{Date}2021-08-02T15:44:35.312-05:00"
+    jcr:lastModified="{Date}2021-08-24T15:43:37.914-04:00"
     jcr:lastModifiedBy="admin"
     jcr:primaryType="sling:OrderedFolder">
     <jcr:content
-        cq:conf="/conf/sample"
+        cq:conf="/conf/sample/Presentation Content Fragments"
         jcr:primaryType="nt:unstructured"
         jcr:title="Sample Site">
         <folderThumbnail/>
@@ -25,4 +25,11 @@
     <golf-image-2.jpeg/>
     <golf-image-3.jpeg/>
     <golfworld_x0020_logo.png/>
+    <golf-banner-1.jpg/>
+    <golf-banner-2.png/>
+    <golf-banner-3.jpg/>
+    <golf-world-content-fragment/>
+    <promote/>
+    <golf-world-promote/>
+    <tiger-woods-golfer.jpg/>
 </jcr:root>
