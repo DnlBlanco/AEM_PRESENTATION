@@ -8,7 +8,7 @@
         cq:name="golf-image-1.jpeg"
         cq:parentPath="/content/dam/sample"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-08-24T11:44:46.126-04:00"
+        jcr:lastModified="{Date}2021-08-24T13:49:36.802-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -24,11 +24,11 @@
             dam:Physicalwidthindpi="{Long}96"
             dam:Physicalwidthininches="{Decimal}8.333333015441895"
             dam:Progressive="no"
-            dam:sha1="7dee4ab41339ac88b1a0b1dfdfa00dd0dd72422e"
+            dam:sha1="2fb4a63ae230956ab1d54236acf21681f0eb983d"
             dam:size="{Long}346027"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-08-24T11:44:45.815-04:00"
-            jcr:lastModified="{Date}2021-08-24T11:44:45.815-04:00"
+            jcr:lastModified="{Date}2021-08-24T13:49:36.433-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
