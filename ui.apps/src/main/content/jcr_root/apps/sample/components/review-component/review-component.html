@@ -1,0 +1,74 @@
+<!-- Review Component for AEM Presentation Page. 
+*The Component displays an image of a golf gear followed by a text description -->
+<div
+  class="review-comp"
+  data-sly-use.model="com.adobe.aem.sample.core.models.ReviewModel"
+>
+  <div class="grid-container">
+        <div class="grid-item item-1">
+            <div class="review-comp__img-container">
+                <img
+                    class="review-comp__golf-logo"
+                    src="/content/dam/sample/golfworld logo.png"
+                />
+            </div>
+        </div>
+        <div class="grid-item item-2">
+            <h1 class="review-comp__h1">${model.itemName}</h1>
+        </div>
+        <div class="grid-item item-3">
+            <h1 class="review-comp__pro">Pro Reviews</h1>
+        </div>
+        <div class="grid-item item-4">
+            <div class="review-comp__img-container">
+                <img
+                    class="review-comp__golf-logo"
+                    src="/content/dam/sample/golfworld logo.png"
+                />
+            </div>
+        </div>
+        <div class="grid-item item-5">
+            <br>
+            <br>
+            <h1 class="review-comp__h1">G</h1><br>
+            <h1 class="review-comp__h1">O</h1><br>
+            <h1 class="review-comp__h1">L</h1><br>
+            <h1 class="review-comp__h1">F</h1><br>
+        </div>
+        <div class="grid-item item-6">
+            <div class="review-comp__img-container">
+                <img
+                class="review-comp__image"
+                src="/content/dam/sample/${model.itemName}.png"
+                alt="Item Image"
+                />
+            </div>
+			<br>
+			<h2 class="review-comp__h1">USD $${model.itemPrice}</h2>
+			<br>
+            <button
+                id="review-comp__next-item-btn"
+                value="${model.itemName}"
+                onclick="callServlet()"
+                >
+                Next Item
+            </button>
+        </div>
+        <div class="grid-item item-7">
+			<div class="review-comp__iframe"><iframe width="420" height="345" src="${model.itemVideoUrl}">
+				</iframe>
+			</div>
+			<br>
+            <p class="review-comp__p">${model.itemDescription}</p>
+        </div>
+        <div class="grid-item item-8">
+            <br>
+            <br>
+            <h1 class="review-comp__h1">W</h1><br>
+            <h1 class="review-comp__h1">O</h1><br>
+            <h1 class="review-comp__h1">R</h1><br>
+            <h1 class="review-comp__h1">L</h1><br>
+            <h1 class="review-comp__h1">D</h1><br>
+        </div>
+  </div>
+</div>
