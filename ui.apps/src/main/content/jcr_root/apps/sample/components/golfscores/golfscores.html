@@ -1,0 +1,46 @@
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+	
+</script>
+
+<sly
+	data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='sample.site2'}" />
+<h2 style="text-align: center;">PGA Top Five Players To Watch</h2>
+<div
+	data-sly-use.model="com.adobe.aem.sample.core.models.PlayerStatsModel" id="scoretable">
+
+	<table data-sly-test="${model.playerStats}" class="center">
+		<thead>
+			<th>Player Name</th>
+			<th>Rank Last Week</th>
+			<th>Rank This Week</th>
+			<th>Rounds</th>
+			<th>Average</th>
+			<th>Total Strokes</th>
+			<th>Total Adjustment</th>
+			<th>Total Rounds</th>
+		</thead>
+		<tbody data-sly-list.ps="${model.playerStats}">
+			<tr>
+				<td>${ps.playername}</td>
+				<td>${ps.ranklastweek}</td>
+				<td>${ps.rankthisweek}</td>
+				<td>${ps.rounds}</td>
+				<td>${ps.average}</td>
+				<td>${ps.totalstrokes}</td>
+				<td>${ps.totaladjustment}</td>
+				<td>${ps.totalrounds}</td>
+			</tr>
+		</tbody>
+	</table>
+    <div data-sly-test="${!model.playerStats}"><strong>Page Maintenance!</strong></div>
+</div>
+<div>
+
+	<p id="path" value="${currentPage.path}"></p>
+	<body onload="readjson()">
+		<div id="jsondiv" name="${currentPage.path}"></div>
+	</body>
+</div>
