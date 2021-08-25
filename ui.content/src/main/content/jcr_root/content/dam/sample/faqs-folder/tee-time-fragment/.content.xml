@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="7c43ca8d-4f13-4110-bac6-d2e0ea5b52d9">
+    <jcr:content
+        cq:name="tee-time-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T18:12:05.053-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Tee-Time Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T18:12:05.054-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>To schedule a tee time, call the Clubhouse at 608-356-5524, or visit our&amp;nbsp;Tee Times Page&amp;nbsp;and ask to make a tee time around the desired time you’d like to play. The golf shop attendant will ask you a few questions including time you’d like to play, how many holes you’d like to play, how many players you will have, and whether your group will be using golf carts or walking. After answering the questions, the attendant will let you know your tee time, and you will be all set to play golf!&lt;/p>&#xa;&lt;p>The phrase “tee time” indicates the exact time your group will be on the 1st tee box, ready to play golf. Be prepared to arrive at the golf course 15 minutes prior to your scheduled tee time to check in, get snacks, warm up, etc.&lt;/p>&#xa;&lt;p>We recommend always making a tee time as opposed to just walking into the Clubhouse asking to play, to ensure your group can get out and onto the golf course. Tee times can be scheduled up to one week in advance at Fairfield Hills, and we generally limit groups to 4 players.&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T18:12:04.405-04:00"
+                question="What’s a tee time &amp; how do I make one?"
+                question_x0040_LastModified="{Date}2021-08-24T18:12:04.405-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T18:12:04.405-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -186,6 +186,16 @@ header.experiencefragment .cmp-search__input {
 }
 .cmp-contentfragment__title{
 	visibility: hidden;
+    font-size: 0;
+}
+
+.cmp-contentfragment__elements{
+	color: white;
+    background: darkgreen;
+}
+
+.cmp-accordion__button{
+	text-align: center;
     font-size:0;
 }
 .cmp-contentfragment__element-title{

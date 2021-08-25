@@ -8,7 +8,7 @@
         cq:name="golf-image-3.jpeg"
         cq:parentPath="/content/dam/sample"
         dam:assetState="processed"
-        jcr:lastModified="{Date}2021-08-24T11:44:48.304-04:00"
+        jcr:lastModified="{Date}2021-08-24T13:49:35.672-04:00"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
@@ -155,7 +155,7 @@
             dam:sha1="a7cf58f83d31cff0fa60bb26512ceb59fb0eabc4"
             dam:size="{Long}772986"
             dam:TimeCreated="112727-0500"
-            dc:date="{Long}[20190420,20190420,20190420]"
+            dc:date="{Long}[20190420,20190420,20190420,20190420,20190420,20190420,20190420]"
             dc:date_xmpArrayType="rdf:Seq"
             dc:format="image/jpeg"
             dc:modified="{Date}2021-08-24T11:44:47.265-04:00"
@@ -199,7 +199,7 @@
             exifEX:LensSpecification_xmpArrayType="rdf:Seq"
             exifEX:PhotographicSensitivity="{Long}200"
             exifEX:SensitivityType="{Long}2"
-            jcr:lastModified="{Date}2021-08-24T11:44:47.265-04:00"
+            jcr:lastModified="{Date}2021-08-24T13:49:34.296-04:00"
             jcr:lastModifiedBy="admin"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="599f1cef-294f-4e35-b4c6-ad0c5a39f1d4">
+    <jcr:content
+        cq:name="how-golf-fragment"
+        cq:parentPath="/content/dam/sample/faqs-folder"
+        cq:versionCreator="admin"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-08-24T16:12:37.857-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="How Golf Fragment"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-08-24T16:12:37.857-04:00">
+        <data
+            cq:model="/conf/sample/settings/dam/cfm/models/faq"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                answer="&lt;p>The object of golf is play the ball from the teeing area, and hit the ball as few times as possible to get it into the hole on the green.&lt;/p>&#xa;&lt;p>Golf can be an extremely frustrating game, but don’t sweat it! Stay focused on the fact that you are outside in beautiful weather, getting some exercise, and hanging out with some good friends!&lt;/p>&#xa;&lt;p>For some tips and tricks, we recommend checking out the “Sunday Swing” video lesson series&amp;nbsp;here. Nick Winters, Golf Professional, gives many useful techniques for different golf shots in the series. Also visit our&amp;nbsp;&lt;a href=&quot;/content/sample/us/en/presentation-page.html&quot; target=&quot;_self&quot;>Calendar&amp;nbsp;&lt;/a>to find out when the next Free Instruction Sunday is, or&amp;nbsp;Contact Golf World Golf Course&amp;nbsp;to schedule a lesson!&lt;/p>&#xa;"
+                answer_x0040_ContentType="text/html"
+                answer_x0040_LastModified="{Date}2021-08-24T16:12:37.527-04:00"
+                question="How do I play golf?"
+                question_x0040_LastModified="{Date}2021-08-24T16:12:37.527-04:00"
+                tags_x0040_LastModified="{Date}2021-08-24T16:12:37.528-04:00"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
